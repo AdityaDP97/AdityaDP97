@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flowers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+ <!-- wow -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css ">
+
+              <script>
+              new WOW().init();
+              </script>
+
+<style>
+.navbar{
+	color: ghostwhite;
+	/*opacity: 0.5;*/
+}
+ /*.btn{
+ 	padding: 11px 24px px 24px ;
+ 	margin-right: 3%;
+ 
+
+ }
+ #myNavbar ul li a .btn{
+	background-color: white;
+	color: black;
+}
+ #myNavbar ul li a .btn:hover{
+ 	color: #fff;
+ 	background-color: blue;
+ }*/
+ 
+#myNavbar ul li a{
+	color: black;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-menu{
+	display: ;
+	position: absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	min-width: 160px;
+}
+
+.dropdown:hover .dropdown-menu{display: block;}
+
+#cat{margin-top:9%;font-size: 50px;font-family: 'Lobster Two', cursive; font-weight: bold;}
+
+/*underline hover*/
+#myNavbar ul li a:before{
+	content: "";
+	color: black;
+	position: absolute;
+	top: 110%;
+	left: 0;
+	width: 0;
+	height: 2px;
+	border-bottom: 2px solid black;
+	transition: all 0.4s linear;
+}
+
+#myNavbar ul li a:hover:before{
+	width: 100%;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" style="font-family: 'Arima Madurai', cursive;">
+	<div class="container">
+		<div class="navbar-header">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="/"> <img src="/static/images/logo2.jpg" style="width:100%;"></a>
+				</div>
+			<button style="margin-top: 10%" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+            </button> 
+
+	<div class="col-sm-8" style="margin-top:2%;padding-bottom: 20px;">			
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+            	<li><a href="/">HOME</a></li>
+            	    <li class="dropdown">
+				     	<a class="dropdown-toggle" data-toggle="dropdown" href="/catagory">CATAGORIES<span class="caret"></span></a>
+				       		<ul class="dropdown-menu" style="">
+				       			<li><a href="/catagory">ALL CATAGORIES</a></li>
+								<li> <a href="/scenes">SCENES</a></li>
+								<li><a href="/morning">MORNING</a></li>
+								<li><a href="/birds">BIRDS</a></li>
+								<li><a href="/flowers">FLOWERS</a></li>
+								<li><a href="/construction">CONSTRUCTION</a></li>
+							</ul>
+				</li>
+            	<li><a href="/contact">CONTACT</a></li>
+      		</ul>
+      	</div>
+	</div>
+		</div>
+	</div>
+</nav>
+<div class="hidden-lg" style="margin-top:40%;"></div>
+<div style="background-color:#a9a9a9; padding-bottom: 30px;">
+<div class="container " style="font-family: 'Arima Madurai', cursive;">
+<div>
+<h1 id="cat" class="text-center wow fadeInDown"><a href="/flowers" style="color: black; text-decoration: none;">FLOWERS</a></h1>
+</div>
+<br><br>
+<div class="row text-center">
+	<div class="col-sm-4 wow fadeInUp">
+	</div>
+	<div class="col-sm-4 wow fadeInDown">
+		<a href="" style="text-decoration: none;color: black;"><img src="/static/images/flowers/f1.jpeg"style="border: 3px solid ;box-shadow: 1px 1px 10px 1px black; width: 100%;"></a>
+	</div>
+	<div class="col-sm-4 wow fadeInUp">
+	</div>
+</div>
+<br><br><br>
+<div class="row text-center">
+	<div class="col-sm-4 wow fadeInLeft">
+		<a href="" style="text-decoration: none;color: black;"><img src="/static/images/flowers/f2.jpeg"style="border: 3px solid ;box-shadow: 1px 1px 10px 1px black;width: 100%;"></a>
+	</div><br class="hidden-lg"><br class="hidden-lg"><br class="hidden-lg">
+	<div class="col-sm-4 hidden-lg wow fadeIn">
+	<a href="" style="text-decoration: none;color: black;"><img src="/static/images/flowers/f4.png"style="border: 3px solid ;box-shadow: 1px 1px 10px 1px black;width: 100%;"></a>
+	</div>
+	<div class="col-sm-4 hidden-xs wow fadeIn">
+	<a href="" style="text-decoration: none;color: black;"><img src="/static/images/flowers/f4.png"style="border: 3px solid ;box-shadow: 1px 1px 10px 1px black;width: 100%;margin-top: 40%;"></a>
+	</div><br class="hidden-lg"><br class="hidden-lg"><br class="hidden-lg">
+	<div class="col-sm-4 wow fadeInRight">
+	<a href="" style="text-decoration: none;color: black;"><img src="/static/images/flowers/f3.jpg"style="border: 3px solid ;box-shadow: 1px 1px 10px 1px black;width: 100%;"></a>
+	</div>
+</div>
+<br><br><br>
+<div class="row text-center">
+	<div class="col-sm-4 wow fadeInUp">
+	</div>
+	<div class="col-sm-4 wow fadeInUp">
+		<a href="" style="text-decoration: none;color: black;"><img src="/static/images/flowers/f5.png"style="border: 3px solid ;box-shadow: 1px 1px 10px 1px black; width: 100%;"></a>
+	</div>
+	<div class="col-sm-4 wow fadeInUp">
+	</div>
+</div>
+</div>
+</div>
+
+
+<footer>
+	<div style="background-color:black; padding:20px 0 20px 0; font-family: 'Arima Madurai', cursive;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="/static/images/logo.jpg"style="width: 100%; margin-top: -25%;">
+				</div>
+
+
+			<div class="col-sm-4">
+					
+				<ul style="font-size:16px;">
+					<h4 style="font-size: 24px;border-bottom: 1px solid #fff;"><a href="/catagory" style="color: white;text-decoration: none;">Catagories</a></h4>
+
+					<li style="list-style: none;" ><a href="/scenes" style="color: #fff;">Scenes</a></li>
+					<li style="list-style: none;" ><a href="/construction" style="color: #fff;">Construction</a></li>
+					<li style="list-style: none;"><a href="/birds" style="color: #fff;">Birds</a></li>
+					<li style="list-style: none;"><a href="/flowers" style="color: #fff;">Flowers</a></li>
+					<li style="list-style: none;"><a href="/morning" style="color: #fff;">Morning</a></li>
+				</ul>
+				</div>
+
+
+				<div class="col-sm-4">
+					
+				<ul style="font-size:16px;color:#fff;list-style: none;">
+					<h4 style="font-size: 24px;border-bottom: 1px solid #fff;color: #fff;">Contact</h4>
+					<li><i class="fa-solid fa-envelope"></i>adityapawar129@gmail.com</li>
+					<li><i class="fa-brands fa-instagram-square"></i>&nbsp; Instagram</li>
+					<li><i class="fa-brands fa-linkedin"></i>&nbsp; Linkedin</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div style="background-color:#696969;padding:30px 0 25px 0;color: #fff;font-family: 'Arima Madurai', cursive;">
+		<center><p>Copyright Aditya Dilip Pawar</p></center>
+	</div>
+</footer>
+
+</body>
+</html>
